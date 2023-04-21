@@ -16,7 +16,7 @@ class TestInput(unittest.TestCase):
         self.assertRegex(symbol, r"^[A-Z]{1, 7}$")
 
 
-    #chart type: 1 numeric character, 1 or 2
+    #   chart type: 1 numeric character, 1 or 2
     def test_chart_type(self):
         self.assertIn(type, [1, 2])
 
